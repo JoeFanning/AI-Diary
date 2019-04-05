@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63B8FF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7f7fff"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtViewWeatherForDiaryEntry"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:background="#7f7fff"
+            android:paddingBottom="8dp"
+            android:paddingTop="10dp"
+            android:text="@string/weather_for_diary_entry"
+            android:textAlignment="center"
+            android:paddingLeft="60dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1.11" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:text="@string/X"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewCurrentDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/date_time" />
+
+    <TextView
+        android:id="@+id/txtViewNameOfCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/country" />
+
+    <TextView
+        android:id="@+id/txtViewNameOfArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/name_of_area" />
+
+    <TextView
+        android:id="@+id/txtViewWeatherDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"
+        android:textSize="27sp"
+        android:textColor="#000000"
+        android:text="@string/weather_forecast" />
+
+    <ImageView
+        android:id="@+id/imgViewNewsArticleImage3"
+        android:contentDescription="@string/weather_icon"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        app:srcCompat="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/txtViewTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textSize="27sp"
+        android:textColor="#000000"
+        android:text="@string/temperature" />
+
+    <TextView
+        android:id="@+id/txtViewWindSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:text="@string/wind_speed" />
+
+    <TextView
+        android:id="@+id/txtViewPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/pressure" />
+
+    <TextView
+        android:id="@+id/txtViewHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/humidity" />
+
+    <TextView
+        android:id="@+id/txtTextViewVisibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/visibility" />
+
+
+    <TextView
+        android:id="@+id/txtViewSunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/sunrise" />
+
+    <TextView
+        android:id="@+id/txtViewSunset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:paddingBottom="4dp"
+        android:textColor="#000000"
+        android:text="@string/sunset" />
+</LinearLayout>

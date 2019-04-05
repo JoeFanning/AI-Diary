@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joesp.aidiary.DiaryEntryActivity">
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_above="@+id/txtViewDisplayDate"
+        android:layout_alignLeft="@+id/btnNews"
+        android:layout_alignStart="@+id/btnNews" />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/open"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnLocation"
+        android:layout_alignEnd="@+id/btnLocation"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/txtViewDisplayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:layout_below="@+id/btnOpen"
+        android:layout_centerHorizontal="true"
+        android:text="@string/date_time_of_this_diary"/>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:inputType="textMultiLine"
+            android:focusable="true"
+            android:padding="10dp"
+            android:layout_below="@+id/txtViewDisplayDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/txtViewDiaryEntry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/a_sample_diary_entry" />
+
+        </ScrollView>
+
+    <Button
+        android:id="@+id/btnSpeechToText"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="@string/speech_to_text"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignRight="@+id/btnSave"
+        android:layout_alignEnd="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnTextToSpeech"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="@string/text_to_speech"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignLeft="@+id/btnOpen"
+        android:layout_alignStart="@+id/btnOpen" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text=""
+        android:background="@drawable/location"
+        android:layout_alignTop="@+id/btnNews"
+        android:layout_toLeftOf="@+id/txtWatsonAIAnalytics"
+        android:layout_toStartOf="@+id/txtWatsonAIAnalytics" />
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text=""
+        android:background="@drawable/weather"
+        android:layout_alignTop="@+id/btnLocation"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnNews"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text=""
+        android:background="@drawable/news"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnSpeechToText"
+        android:layout_toRightOf="@+id/txtWatsonAIAnalytics"
+        android:layout_toEndOf="@+id/txtWatsonAIAnalytics" />
+
+    <Button
+        android:id="@+id/btnWatsonAIAnalysis"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:text=""
+        android:background="@drawable/ibm_watson_logo"
+        android:layout_below="@+id/txtWeather"
+        android:layout_alignRight="@+id/btnWeather"
+        android:layout_alignEnd="@+id/btnWeather"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:layout_below="@+id/btnNews"
+        android:layout_alignLeft="@+id/btnLocation"
+        android:layout_alignStart="@+id/btnLocation" />
+
+    <TextView
+        android:id="@+id/txtWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather"
+        android:layout_below="@+id/btnWeather"
+        android:layout_alignLeft="@+id/btnWatsonAIAnalysis"
+        android:layout_alignStart="@+id/btnWatsonAIAnalysis"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/txtNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/news"
+        android:layout_below="@+id/btnNews"
+        android:layout_toRightOf="@+id/txtWatsonAIAnalytics"
+        android:layout_toEndOf="@+id/txtWatsonAIAnalytics"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/txtWatsonAIAnalytics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watson_ai_analytics"
+        android:layout_below="@+id/btnWatsonAIAnalysis"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

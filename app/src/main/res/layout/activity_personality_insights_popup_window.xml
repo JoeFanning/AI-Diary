@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63B8FF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7f7fff"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtViewNewsForDiaryEntry"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:background="#7f7fff"
+            android:paddingBottom="8dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/personality_insights"
+            android:textAlignment="center"
+            android:paddingLeft="60dp"
+            android:textSize="20sp"
+            android:layout_weight="1.11" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:text="@string/x"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewInformationOnHowScoreAreValued"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:text="@string/information_on_how_scores_are_valued" />
+
+    <Button
+        android:id="@+id/btnInfoOnTraitScores"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.04"
+        android:textColor="#fff"
+        android:background="@drawable/buttonshape"
+        android:text="@string/info" />
+
+    <TextView
+        android:id="@+id/txtViewInformationOnHowScoresAreValued"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="6dp"
+        android:text="@string/big5_characteristic_for_big_five_personality_dimensions"
+         />
+
+    <TextView
+        android:id="@+id/txtViewTrait0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/trait_0"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnFacets0"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/buttonshape"
+        android:text="@string/facets"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtViewTrait1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/trait_1"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnFacets1"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:text="@string/facets" />
+
+    <TextView
+        android:id="@+id/txtViewTrait2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/trait_2"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnFacets2"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/buttonshape"
+        android:text="@string/facets"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtViewTrait3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/trait_3"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnFacets3"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/buttonshape"
+        android:text="@string/facets"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtViewTrait4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/trait_4"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/btnFacets4"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/buttonshape"
+        android:text="@string/facets"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
+

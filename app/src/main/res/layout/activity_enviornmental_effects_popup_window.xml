@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63B8FF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#7f7fff"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/btnEnvironmentalEffects"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1.11"
+            android:background="#7f7fff"
+            android:paddingBottom="4dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:text="@string/environmental_effects"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="@string/X"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShowEnvironmentalEmotionalScores"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:text="@string/compare_environmental_scores" />
+
+    <TextView
+        android:id="@+id/txtViewAnger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmentalAngerScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:paddingTop="2dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtViewDisgust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmentalDisgustScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:textColor="#000"
+        android:paddingTop="2dp"
+        android:textSize="20sp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtViewFear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmentalFearScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:text=""
+        android:textColor="#000"
+        android:paddingTop="2dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtViewJoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmentalJoyScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingTop="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewSadness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="2dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmentalSadnessScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingTop="2dp"
+        android:text=""/>
+
+</LinearLayout>

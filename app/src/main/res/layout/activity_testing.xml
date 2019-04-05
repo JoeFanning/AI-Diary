@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joesp.aidiary.TESTINGActivity">
+
+    <Button
+        android:id="@+id/btnDeleteAllDatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete all databases"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnHideAllTestingDialogs"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnShowAllTestingDialogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show all testing dialogs"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="69dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnHideAllTestingDialogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide all testing dialogs"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="117dp"
+        android:layout_below="@+id/btnShowAllTestingDialogs"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TESTING ACTIVITY"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="155dp"
+        android:text="X"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

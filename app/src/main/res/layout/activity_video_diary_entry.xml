@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joesp.aidiary.VideoDiaryEntryActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="51dp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diary_entry_date_time_01_01_2017"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:layout_below="@+id/videoView"
+        android:layout_alignRight="@+id/btnWatsonAnalysis"
+        android:layout_alignEnd="@+id/btnWatsonAnalysis"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather"
+        android:layout_below="@+id/btnLocation"
+        android:layout_alignRight="@+id/btnLocation"
+        android:layout_alignEnd="@+id/btnLocation" />
+
+    <Button
+        android:id="@+id/btnNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/news"
+        android:layout_below="@+id/btnWeather"
+        android:layout_alignRight="@+id/btnWeather"
+        android:layout_alignEnd="@+id/btnWeather" />
+
+    <Button
+        android:id="@+id/btnWatsonAnalysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watson_ai_analysis"
+        android:layout_below="@+id/btnNews"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="11dp" />
+
+</RelativeLayout>

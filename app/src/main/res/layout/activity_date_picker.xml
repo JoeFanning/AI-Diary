@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f2f8"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7f7fff"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtViewNewsForDiaryEntry"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.11"
+            android:background="#7f7fff"
+            android:paddingBottom="8dp"
+            android:paddingLeft="60dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/find_diary_entry"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/txtViewNewsForDiaryEntry"
+            android:textColor="#ffffff"
+            android:text="@string/X"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="367dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

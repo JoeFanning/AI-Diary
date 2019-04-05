@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joesp.aidiary">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ai_diary"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DiaryEntryActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- Stop keyboard poping up -->
+        <activity android:name=".VideoDiaryEntryActivity" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".LocationPopupWindow"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".WeatherPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".NewsPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".WatsonAnalysisActivity" />
+        <activity
+            android:name=".DatePickerActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".HistoricalDiaryEntryActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".NLUPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PersonalityInsightsPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".HistoricalWeatherPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".HistoricalNewsPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".HistoricalLocationPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PIFacet0PopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PIFacet1PopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PIFacet2PopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PIFacet3PopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PIFacet4PopupWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".EnviornmentalEffectsPopupWindow"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity
+            android:name=".TESTINGActivity"></activity>
+    </application>
+
+</manifest>

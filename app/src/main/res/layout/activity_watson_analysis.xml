@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtViewNewsForDiaryEntry"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.11"
+            android:paddingBottom="8dp"
+            android:paddingLeft="60dp"
+            android:paddingTop="10dp"
+            android:text="@string/watson_analytics"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.10"
+            android:background="@drawable/buttonshape"
+            android:text="@string/X"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:text="@string/test_your_diary_entrys_with_watson_analytics" />
+
+    <ImageView
+        android:id="@+id/imgViewNewsArticleImage3"
+        android:contentDescription="@string/watson_logo"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_margin="13dp"
+        app:srcCompat="@drawable/ibm_watson_logo" />
+
+    <TextView
+        android:id="@+id/txtViewNLUExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/analyize_sentiment_and_emotional_characteristics_and_facets"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnNaturalLanguageUnderstanding"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/natural_language_understanding"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/txtViewPersonalityInsightsExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.07"
+        android:text="@string/use_linguistic_analytics_to_infer_individual_intrinsic_personality_characteristics"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnPersonalityInsights"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_weight="0.07"
+        android:textColor="#fff"
+        android:background="@drawable/buttonshape"
+        android:text="@string/personality_insights" />
+
+    <TextView
+        android:id="@+id/txtViewEnvironmetalEffectsOnPsychologyExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:layout_margin="10dp"
+        android:text="@string/test_for_patterns_between_environmental_events_and_psychology"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnEnvironmentalEffects"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_weight="0.07"
+        android:textColor="#fff"
+        android:background="@drawable/buttonshape"
+        android:text="@string/environmental_effects_on_psychology" />
+
+
+</LinearLayout>

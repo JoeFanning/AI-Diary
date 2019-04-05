@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f7fff"
+    tools:context="com.example.joesp.aidiary.LocationPopupWindow">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="60dp"
+    tools:context="com.example.joesp.aidiary.MapsActivity" />
+
+    <TextView
+        android:id="@+id/txtViewLocationOfDiaryEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/location_for_diary_entry"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/X"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/txtViewLocationOfDiaryEntry"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/txtViewLogitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="@string/longitude"
+        android:layout_above="@+id/txtViewLatitude"
+        android:layout_alignRight="@+id/txtViewLastUpdatedTime"
+        android:layout_alignEnd="@+id/txtViewLastUpdatedTime"
+        android:textAlignment="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/txtViewLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="@string/latitude"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/txtViewLogitude"
+        android:layout_alignStart="@+id/txtViewLogitude" />
+
+    <TextView
+        android:id="@+id/txtViewLastUpdatedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="@string/lastupdatedtime"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtViewLocationOfDiaryEntry"
+        android:layout_alignLeft="@+id/txtViewLocationOfDiaryEntry"
+        android:layout_alignStart="@+id/txtViewLocationOfDiaryEntry" />
+
+</RelativeLayout>
+
+

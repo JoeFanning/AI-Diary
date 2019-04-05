@@ -1,0 +1,193 @@
+<resources>
+    <string name="title_activity_scrolling__diary_entry">ScrollingActivity_DiaryEntry</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="write_diary">Write diary</string>
+    <string name="ai_diary">A.I. Diary</string>
+    <string name="current_date">current date</string>
+    <string name="open_diary_entry">Open diary entry</string>
+    <string name="find_diary">Find Diary</string>
+    <string name="date_time_of_this_diary">Date of this diary</string>
+    <string name="clear">Clear</string>
+    <string name="location">Location</string>
+    <string name="weather">weather</string>
+    <string name="news">News</string>
+    <string name="a_sample_diary_entry">Please ENTER a diary entry HERE</string>
+    <string name="enter_date_01_01_2017">  Enter date 01/01/2017</string>
+    <string name="date_of_entry_01_01_2017">Date of entry: 01/01/2017</string>
+    <string name="diary_entry_date_time_01_01_2017">Diary entry date/time 01/01/2017</string>
+    <string name="watson_ai_analysis">Watson AI Analysis</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_watson_aianalytics">WatsonAIAnalytics</string>
+    <string name="speech_prompt">OK start speaking</string>
+    <string name="speech_not_supported">Sorry your language is not supported</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="last_updated_time">Last updated time</string>
+    <string name="longitude">Longitude: </string>
+    <string name="personality_insights">Personality Insights</string>
+    <string name="x">X</string>
+    <string name="trait_0">Openness</string>
+    <string name="trait_1">Conscientiousness</string>
+    <string name="trait_2">Extraversion</string>
+    <string name="trait_3">Agreeableness</string>
+    <string name="trait_4">Emotional range</string>
+    <string name="extraversion_facets">Extraversion</string>
+    <string name="emotional_range_facets">Emotional range</string>
+    <string name="agreeableness_facets">Agreeableness</string>
+    <string name="conscientiousness_facets">Conscientiousness</string>
+    <string name="openness_facets">Openness</string>
+    <string name="country">Country: </string>
+    <string name="sunrise">Sunrise: </string>
+    <string name="sunset">Sunset: </string>
+    <string name="windspeed">Wind speed: </string>
+    <string name="pressure">Pressure: </string>
+    <string name="humidity">Humidity: </string>
+    <string name="visibility">Visibility: </string>
+    <string name="celcius">Celsius</string>
+    <string name="percent">percent</string>
+    <string name="meters">meters</string>
+    <string name="lastupdatedtime">Last update time: </string>
+    <string name="latitude">Latitude: </string>
+    <string name="anger">Anger:</string>
+    <string name="disgust">Disgust:</string>
+    <string name="fear">Fear:</string>
+    <string name="joy">Joy:</string>
+    <string name="sadness">Sadness:</string>
+    <string name="sentimentscore">Sentiment score :</string>
+    <string name="find_diary_entry">Find diary entry</string>
+    <string name="X">X</string>
+    <string name="save">Save</string>
+    <string name="open">Open</string>
+    <string name="speech_to_text">Speech to text</string>
+    <string name="text_to_speech">Text to speech</string>
+    <string name="watson_ai_analytics">Watson AI Analytics</string>
+    <string name="compare_environmental_scores">Compare environmental scores</string>
+    <string name="environmental_effects">Environmental Effects</string>
+    <string name="watson_analytics">Watson Analytics</string>
+    <string name="description_of_news_article">Description of news article</string>
+    <string name="title_of_news_article">Title of news article</string>
+    <string name="news_for_diary_entry">News for diary entry</string>
+    <string name="location_for_diary_entry">Location for diary entry</string>
+    <string name="video_diary">Video Diary</string>
+    <string name="article_image">article image</string>
+    <string name="natural_language_understanding">Natural Language Understanding</string>
+    <string name="emotional_content_for_all_diaries">Emotional content for all diaries</string>
+    <string name="sentiment_for_all_diaries">Sentiment for all diaries</string>
+    <string name="information_on_how_scores_are_valued">Information on how scores are valued</string>
+    <string name="info">Info</string>
+    <string name="big5_characteristic_for_big_five_personality_dimensions">big5_characteristic for Big Five personality dimensions</string>
+    <string name="facets">facets</string>
+    <string name="facet_0">Facet 0</string>
+    <string name="facet_1">Facet 1</string>
+    <string name="facet_2">Facet 2</string>
+    <string name="facet_3">Facet 3</string>
+    <string name="facet_4">Facet 4</string>
+    <string name="test_your_diary_entrys_with_watson_analytics">Test your diary entrys with Watson analytics</string>
+    <string name="analyize_sentiment_and_emotional_characteristics_and_facets">Analyize sentiment and emotional characteristics and facets</string>
+    <string name="use_linguistic_analytics_to_infer_individual_intrinsic_personality_characteristics">Use linguistic analytics to infer individual intrinsic personality characteristics</string>
+    <string name="test_for_patterns_between_environmental_events_and_psychology">Test for patterns between environmental events and emotional characteristics</string>
+    <string name="environmental_effects_on_psychology">Environmental effects on psychology</string>
+    <string name="watson_logo">watson logo</string>
+    <string name="weather_for_diary_entry">Weather for diary entry</string>
+    <string name="date_time">Date/time</string>
+    <string name="name_of_area">Name of area</string>
+    <string name="weather_forecast">Weather Forecast</string>
+    <string name="weather_icon">weather icon</string>
+    <string name="temperature">Temperature</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="no_weather_documented_for_this_date">There is no weather documented for this date</string>
+    <string name="Sunrise">Sunrise:</string>
+    <string name="Sunset">Sunset:</string>
+    <string name="Humidity">Humidity:</string>
+
+</resources>

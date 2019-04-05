@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#63B8FF"
+android:weightSum="1">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#7f7fff"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtViewNewsForDiaryEntry"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.11"
+        android:background="#7f7fff"
+        android:paddingBottom="8dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp"
+        android:text="@string/news_for_diary_entry"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="44dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/txtViewNewsForDiaryEntry"
+        android:textColor="#ffffff"
+        android:text="@string/X"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.10" />
+
+</LinearLayout>
+
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/txtViewTrait3"
+    android:layout_marginTop="12dp"
+    android:focusableInTouchMode="true"
+    android:inputType="textMultiLine"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewNewsTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="17dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/title_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsArticleDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="17dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/title_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="17dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/title_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsTitle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="17dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/title_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsDescription4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsTitle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="17dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/title_of_news_article" />
+
+        <TextView
+            android:id="@+id/txtViewNewsDescription5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description_of_news_article" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
