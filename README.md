@@ -1,10 +1,9 @@
 # AI-Diary
 
-[![Platform](https://shields.io)](https://android.com)
-[![Language](https://shields.io)](https://java.com)
-[![AI Engine](https://shields.io)](https://ibm.com)
-[![Year](https://shields.io)]()
-
+[![Platform](https://android.com)
+[![Language] (https://java.com)
+[![AI Engine](https://ibm.com)
+**University Final year Project 2014**
 An Android-based digital diary application that implements artificial intelligence concepts to psychologically analyze user diary entries using **IBM Watson**.
 
 This project was originally developed in **2014** as a **University Project** to explore the intersection of mobile software development, cloud-based cognitive computing, and mental health tracking.
